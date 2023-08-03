@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: thistle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parentContainer {
+    margin-top: 100px;
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    padding-top: 25px;
+    border-radius: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-bottom: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.parentContainer .Container1::after {
+
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background: thistle;
+
+}
+
+.parentContainer .Container2 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parentContainer .Container2 .input {
+    margin-bottom: 20px;
+    width: 200px;
+
+}
+
+.input input {
+    width: 200px;
+    margin-right: 10px;
+
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    height: 30px;
+    padding-left: 15px;
+
+}
+
+.parentContainer .Gender {
+    margin-top: -10px;
+
+}
+
+.parentContainer .Gender .GenderDetails {
+    margin-right: 50px;
+}
+
+button {
+    width: 450px;
+    height: 30px;
+    background-color: thistle;
+    border: none;
+    margin-top: 40px;
+    text-shadow: 2px 2px wheat;
+    color: white;
+}
